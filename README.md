@@ -1,5 +1,5 @@
 # steg-in-the-wild
-A list of attacks or malware using steganography or information hiding
+A list of attacks and malware using steganography or information hiding
 
 ## Image Attacks
 
