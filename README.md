@@ -48,4 +48,5 @@ A list of attacks and malware using steganography or information hiding
 
 ## Text Attacks
 
+* [Astaroth](https://blog.talosintelligence.com/2020/05/astaroth-analysis.html): the description of YouTube channels hides the URL of command and control servers. 
 * [Platinum APT](https://securelist.com/platinum-is-back/91135/): C&C data is hidden in the order of HTML attributes and its encryption key in spaces among HTML tags
