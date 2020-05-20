@@ -4,6 +4,7 @@ A list of attacks and malware using steganography or information hiding
 <!--- Newer First --->
 ## Image Attacks
 
+* [USBFerry uses steganography to mask a backdoor](https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-troopers-back-usbferry-attack-targets-air-gapped-environments/): it uses the BKDR_IDSHELL.ZTFC-A backdoor, which is hidden in a JPG and uses the DNS to communicate with its controller
 * [Attack at the Tupperware website with credit card skimmer](https://blog.malwarebytes.com/hacking-2/2020/03/criminals-hack-tupperware-website-with-credit-card-skimmer/): PNG file containing a malicious JavaScript (see [here](https://blog.malwarebytes.com/threat-analysis/2019/12/new-evasion-techniques-found-in-web-skimmers/) for similar techniques from the Magecart Group)
 * [MyKings Botnet hiding malicious data exchanges](https://www.sophos.com/en-us/medialibrary/pdfs/technical-papers/sophoslabs-uncut-mykings-report.pdf): malware payload is hidden in images (e.g, a JPG containing the SQL brute forcer)
 * [Titanium](https://securelist.com/titanium-the-platinum-group-strikes-again/94961/): a PNG file is used to exchange commands for a backdoor (another thechnique used by Platinum is [here](#text-attacks))
@@ -41,7 +42,7 @@ A list of attacks and malware using steganography or information hiding
 
 * [Okrum and Ketrican](https://www.welivesecurity.com/wp-content/uploads/2019/07/ESET_Okrum_and_Ketrican.pdf): C&C communications are hidden in HTTP traffic, i.e., in Set-Cookie and Cookie headers of HTTP requests
 * [DarkHydrus](https://www.paloaltonetworks.com/cyberpedia/what-is-dns-tunneling): it uses DNS tunneling to transfer information, which is a technique observed in the past also in Morto and Feederbot malware
-* [Steganography in contemporary cyberattacks](https://securelist.com/steganography-in-contemporary-cyberattacks/79276/): a general review including Backdoor.Win32.Denis which hidden data in a DNS tunnel for communicating with C&C
+* [Steganography in contemporary cyberattacks](https://securelist.com/steganography-in-contemporary-cyberattacks/79276/): a general review including Backdoor.Win32.Denis hiding data in a DNS tunnel for C&C communications
 * [ChChes](https://attack.mitre.org/software/S0144/): the malware uses Cookie headers of HTTP for C&C communications
 * [NanoLocker](https://www.bleepingcomputer.com/news/security/nanolocker-ransomware-can-be-decrypted-if-caught-early/): the ransomware hide data in ICMP packets
 * [FAKEM RAT](https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp-fakem-rat.pdf): C&C communications are camouflaged in Yahoo! Messenger and MSN Messenger as well as HTTP (**strictly not network steganography!**)
