@@ -4,6 +4,8 @@ A list of attacks and malware using steganography or information hiding
 <!--- Newer First --->
 ## Image Attacks
 
+* [Enterprises in Japan and Europe attacked also by using Mimikatz](https://ics-cert.kaspersky.com/reports/2020/05/28/steganography-in-targeted-attacks-on-industrial-enterprises/): malicious XLS containing Trojan.MSExcel.Agent.be are used to retrieve an image hiding the Trojan-PSW.PowerShell.Mimikatz
+* [IcedID and BokBot](https://www.group-ib.com/blog/icedid): an image is used to retrieve the shellcode and the IcedID core (see, [here](https://sysopfb.github.io/malware,/icedid/2020/04/28/IcedIDs-updated-photoloader.html) for more details on the IcedID PhotoLoader)  
 * [USBFerry uses steganography to mask a backdoor](https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-troopers-back-usbferry-attack-targets-air-gapped-environments/): it uses the BKDR_IDSHELL.ZTFC-A backdoor, which is hidden in a JPG and uses the DNS to communicate with its controller
 * [Attack at the Tupperware website with credit card skimmer](https://blog.malwarebytes.com/hacking-2/2020/03/criminals-hack-tupperware-website-with-credit-card-skimmer/): PNG file containing a malicious JavaScript (see [here](https://blog.malwarebytes.com/threat-analysis/2019/12/new-evasion-techniques-found-in-web-skimmers/) for similar techniques from the Magecart Group)
 * [MyKings Botnet hiding malicious data exchanges](https://www.sophos.com/en-us/medialibrary/pdfs/technical-papers/sophoslabs-uncut-mykings-report.pdf): malware payload is hidden in images (e.g, a JPG containing the SQL brute forcer)
