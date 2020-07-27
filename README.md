@@ -4,6 +4,7 @@ A list of attacks and malware using steganography or information hiding
 <!--- Newer First --->
 ## Image Attacks
 
+* [OilRig covertly communicates via emails and image steganography](https://unit42.paloaltonetworks.com/oilrig-novel-c2-channel-steganography/): secret data is embedded in BMP images and sent as the attachment of fake mails
 * [Enterprises in Japan and Europe attacked also by using Mimikatz](https://ics-cert.kaspersky.com/reports/2020/05/28/steganography-in-targeted-attacks-on-industrial-enterprises/): malicious XLS containing Trojan.MSExcel.Agent.be are used to retrieve an image hiding the Trojan-PSW.PowerShell.Mimikatz
 * [IcedID and BokBot](https://www.group-ib.com/blog/icedid): an image is used to retrieve the shellcode and the IcedID core (see, [here](https://sysopfb.github.io/malware,/icedid/2020/04/28/IcedIDs-updated-photoloader.html) for more details on the IcedID PhotoLoader)  
 * [USBFerry uses steganography to mask a backdoor](https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-troopers-back-usbferry-attack-targets-air-gapped-environments/): it uses the BKDR_IDSHELL.ZTFC-A backdoor, which is hidden in a JPG and uses the DNS to communicate with its controller
