@@ -43,6 +43,7 @@ A list of attacks and malware using steganography or information hiding
 
 ## Network Attacks
 
+* [Sunburst](https://www.fireeye.com/blog/threat-research/2020/12/sunburst-additional-technical-details.html): data is hidden in HTTP conversations and commands are extracted via regexp scanning bodies of HTTP responses
 * [Okrum and Ketrican](https://www.welivesecurity.com/wp-content/uploads/2019/07/ESET_Okrum_and_Ketrican.pdf): C&C communications are hidden in HTTP traffic, i.e., in Set-Cookie and Cookie headers of HTTP requests
 * [DarkHydrus](https://www.paloaltonetworks.com/cyberpedia/what-is-dns-tunneling): it uses DNS tunneling to transfer information, which is a technique observed in the past also in Morto and Feederbot malware
 * [Steganography in contemporary cyberattacks](https://securelist.com/steganography-in-contemporary-cyberattacks/79276/): a general review including Backdoor.Win32.Denis hiding data in a DNS tunnel for C&C communications
