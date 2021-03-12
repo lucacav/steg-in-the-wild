@@ -53,6 +53,7 @@ A list of attacks and malware using steganography or information hiding
 
 ## Text Attacks
 
+* [Maldoc targeting Azerbaijan](https://blog.malwarebytes.com/threat-analysis/2021/03/new-steganography-attack-targets-azerbaijan/): a .doc document written in Azerbaijani contains an obfuscated macro and extract a copy of FairFax (i.e., a .NET RAT)
 * [PHP Malware](https://blog.sucuri.net/2021/02/whitespace-steganography-conceals-web-shell-in-php-malware.html): a payload (Web Shell) has been found encoded in whitespaces of a license.php file via a publicly available proof-of-concept text steganography [method](https://m.habr.com/en/post/458710/) 
 * [Astaroth](https://blog.talosintelligence.com/2020/05/astaroth-analysis.html): the description of YouTube channels hides the URL of command and control servers. 
 * [Platinum APT](https://securelist.com/platinum-is-back/91135/): C&C data is hidden in the order of HTML attributes and its encryption key in spaces among HTML tags
