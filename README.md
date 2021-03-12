@@ -1,5 +1,6 @@
 # steg-in-the-wild
-A list of attacks and malware using steganography or information hiding
+A list of attacks and malware using steganography or information hiding. 
+
 
 <!--- Newer First --->
 ## Image Attacks
@@ -57,3 +58,10 @@ A list of attacks and malware using steganography or information hiding
 * [PHP Malware](https://blog.sucuri.net/2021/02/whitespace-steganography-conceals-web-shell-in-php-malware.html): a payload (Web Shell) has been found encoded in whitespaces of a license.php file via a publicly available proof-of-concept text steganography [method](https://m.habr.com/en/post/458710/) 
 * [Astaroth](https://blog.talosintelligence.com/2020/05/astaroth-analysis.html): the description of YouTube channels hides the URL of command and control servers. 
 * [Platinum APT](https://securelist.com/platinum-is-back/91135/): C&C data is hidden in the order of HTML attributes and its encryption key in spaces among HTML tags
+
+---
+## Related Papers
+
+* K. Cabaj, L. Caviglione, W. Mazurczyk, S. Wendzel, A. Woodward, S. Zander, [The New Threats of Information Hiding: The Road Ahead](https://ieeexplore.ieee.org/abstract/document/8378979), IT Professional, Vol. 20, No. 3, pp. 31-39, May./Jun. 2018, doi: 10.1109/MITP.2018.032501746.
+
+* W. Mazurczyk, L. Caviglione, [Information Hiding as a Challenge for Malware Detection](https://ieeexplore.ieee.org/document/7085644), IEEE Security & Privacy, Vol. 13, No. 2, pp. 89-93, Mar.-Apr. 2015, doi: 10.1109/MSP.2015.33.
