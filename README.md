@@ -5,6 +5,7 @@ A list of attacks and malware using steganography or information hiding.
 <!--- Newer First --->
 ## Image Attacks
 
+* [SteamHide exploits Steam profile images to download malware](https://www.gdatasoftware.com/blog/steamhide-malware-in-profile-images): malicious encrypted code is placed within the PropertyTagICCProfile value.
 * [OilRig covertly communicates via emails and image steganography](https://unit42.paloaltonetworks.com/oilrig-novel-c2-channel-steganography/): secret data is embedded in BMP images and sent as the attachment of fake mails
 * [Enterprises in Japan and Europe attacked also by using Mimikatz](https://ics-cert.kaspersky.com/reports/2020/05/28/steganography-in-targeted-attacks-on-industrial-enterprises/): malicious XLS containing Trojan.MSExcel.Agent.be are used to retrieve an image hiding the Trojan-PSW.PowerShell.Mimikatz
 * [IcedID and BokBot](https://www.group-ib.com/blog/icedid): an image is used to retrieve the shellcode and the IcedID core (see, [here](https://sysopfb.github.io/malware,/icedid/2020/04/28/IcedIDs-updated-photoloader.html) for more details on the IcedID PhotoLoader)  
