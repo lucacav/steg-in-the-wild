@@ -22,8 +22,8 @@ A list of attacks and malware using steganography or information hiding.
 * [Stegoware-3PC](https://www.scmagazine.com/home/security-news/malware/stegoware-3pc-marks-new-high-in-adware-sophistication/): malware can redirect iOS 12 devices to a phishing site by injecting data in PNG images
 * [Turla](https://www.bleepingcomputer.com/news/security/turla-backdoor-deployed-in-attacks-against-worldwide-targets/): it uses backdoors placed in ad-hoc PDF and JPF mail attachments (main target was Microsoft Exchange)
 * [OceantLotus](https://gbhackers.com/oceanlotus-apt-hackers-group-steganography/): malware loaded and extensions are embedded in PNG (by using LSB steganography)
-* [Cardinal RAT](https://gbhackers.com/oceanlotus-apt-hackers-group-steganography/): it uses various obfuscation techniques, the first one is a .NET executable embedding a BMP containing a DLL
-* [Powload](https://gbhackers.com/oceanlotus-apt-hackers-group-steganography/): it embeds malicious code in images via the [Invoke-PSImage](https://github.com/peewpw/Invoke-PSImage) technique. 
+* [Cardinal RAT](https://threatpost.com/cardinal-rat-fintech/142965/): it uses various obfuscation techniques, the first one is a .NET executable embedding a BMP containing a DLL
+* [Powload](https://www.trendmicro.com/en_us/research/19/c/from-fileless-techniques-to-using-steganography-examining-powloads-evolution.html): it embeds malicious code in images via the [Invoke-PSImage](https://github.com/peewpw/Invoke-PSImage) technique. 
 * [VeryMal](https://www.theregister.co.uk/2019/01/24/mac_steganography_malware/): malware is injected in JPG (mainly targeting macOS and iOS)
 * [Ursnif](https://securityaffairs.co/wordpress/80342/hacking/steganography-obfuscate-pdf.html): malicious code is injected in images embedded in PDF files
 * [On the use of steganographic Twitter memes](https://blog.trendmicro.com/trendlabs-security-intelligence/cybercriminals-use-malicious-memes-that-communicate-with-malware/): Trojan.MSIL.BERBOMTHUM.AA embeds in memes a /print command and sends screenshots of infected machines to a C&C server (the URL is hard-coded on pastebin.com)
