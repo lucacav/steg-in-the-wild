@@ -5,7 +5,7 @@ A list of attacks and malware using steganography or information hiding.
 <!--- Newer First --->
 ## Image Attacks
 
-* [Docker servers targeted with Lemon_Duck](https://www.bleepingcomputer.com/news/security/docker-servers-hacked-in-ongoing-cryptomining-malware-campaign/): attackers gain access to exposed Docker APIs and by exploiting Lemon_Duck runs a malicious container to fetch a script hidden in a PNG image.
+* [Docker servers targeted with Lemon_Duck](https://www.bleepingcomputer.com/news/security/docker-servers-hacked-in-ongoing-cryptomining-malware-campaign/): attackers gain access to exposed Docker APIs and by exploiting Lemon_Duck runs a malicious container to fetch a script hidden in a PNG image
 * [Massive use of steganography to implement an attack chain against French entities](https://www.proofpoint.com/us/blog/threat-insight/serpent-no-swiping-new-backdoor-targets-french-entities-unique-attack-chain): image steganography is used for hiding various payloads (including a base64-encoded PowerShell script) to install the Serpent backdoor 
 * [SteamHide exploits Steam profile images to download malware](https://www.gdatasoftware.com/blog/steamhide-malware-in-profile-images): malicious encrypted code is placed within the PropertyTagICCProfile value
 * [OilRig covertly communicates via emails and image steganography](https://unit42.paloaltonetworks.com/oilrig-novel-c2-channel-steganography/): secret data is embedded in BMP images and sent as the attachment of fake mails
