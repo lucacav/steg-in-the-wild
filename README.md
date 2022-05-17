@@ -5,6 +5,7 @@ A list of attacks and malware using steganography or information hiding.
 <!--- Newer First --->
 ## Image Attacks
 
+* [Docker servers targeted with Lemon_Duck](https://www.bleepingcomputer.com/news/security/docker-servers-hacked-in-ongoing-cryptomining-malware-campaign/): attackers gain access to exposed Docker APIs and by exploiting Lemon_Duck runs a malicious container to fetch a script hidden in a PNG image.
 * [Massive use of steganography to implement an attack chain against French entities](https://www.proofpoint.com/us/blog/threat-insight/serpent-no-swiping-new-backdoor-targets-french-entities-unique-attack-chain): image steganography is used for hiding various payloads (including a base64-encoded PowerShell script) to install the Serpent backdoor. 
 * [SteamHide exploits Steam profile images to download malware](https://www.gdatasoftware.com/blog/steamhide-malware-in-profile-images): malicious encrypted code is placed within the PropertyTagICCProfile value.
 * [OilRig covertly communicates via emails and image steganography](https://unit42.paloaltonetworks.com/oilrig-novel-c2-channel-steganography/): secret data is embedded in BMP images and sent as the attachment of fake mails
@@ -64,6 +65,11 @@ A list of attacks and malware using steganography or information hiding.
 ---
 ## Related Papers
 
-* K. Cabaj, L. Caviglione, W. Mazurczyk, S. Wendzel, A. Woodward, S. Zander, [The New Threats of Information Hiding: The Road Ahead](https://ieeexplore.ieee.org/abstract/document/8378979), IT Professional, Vol. 20, No. 3, pp. 31-39, May./Jun. 2018, doi: 10.1109/MITP.2018.032501746.
+* K. Cabaj, L. Caviglione, W. Mazurczyk, S. Wendzel, A. Woodward, S. Zander, [The New Threats of Information Hiding: The Road Ahead](https://ieeexplore.ieee.org/abstract/document/8378979), IT Professional, Vol. 20, No. 3, pp. 31-39, May/June 2018, doi: 10.1109/MITP.2018.032501746.
 
 * W. Mazurczyk, L. Caviglione, [Information Hiding as a Challenge for Malware Detection](https://ieeexplore.ieee.org/document/7085644), IEEE Security & Privacy, Vol. 13, No. 2, pp. 89-93, Mar.-Apr. 2015, doi: 10.1109/MSP.2015.33.
+
+---
+
+## Acknowledgements 
+This work was supported by the Horizon 2020 Program through [SIMARGL](https://simargl.eu/) H2020-SU-ICT-01-2018, Grant Agreement No. 833042.
