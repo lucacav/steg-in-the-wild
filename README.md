@@ -6,8 +6,8 @@ A list of attacks and malware using steganography or information hiding.
 ## Image Attacks
 
 * [Docker servers targeted with Lemon_Duck](https://www.bleepingcomputer.com/news/security/docker-servers-hacked-in-ongoing-cryptomining-malware-campaign/): attackers gain access to exposed Docker APIs and by exploiting Lemon_Duck runs a malicious container to fetch a script hidden in a PNG image.
-* [Massive use of steganography to implement an attack chain against French entities](https://www.proofpoint.com/us/blog/threat-insight/serpent-no-swiping-new-backdoor-targets-french-entities-unique-attack-chain): image steganography is used for hiding various payloads (including a base64-encoded PowerShell script) to install the Serpent backdoor. 
-* [SteamHide exploits Steam profile images to download malware](https://www.gdatasoftware.com/blog/steamhide-malware-in-profile-images): malicious encrypted code is placed within the PropertyTagICCProfile value.
+* [Massive use of steganography to implement an attack chain against French entities](https://www.proofpoint.com/us/blog/threat-insight/serpent-no-swiping-new-backdoor-targets-french-entities-unique-attack-chain): image steganography is used for hiding various payloads (including a base64-encoded PowerShell script) to install the Serpent backdoor 
+* [SteamHide exploits Steam profile images to download malware](https://www.gdatasoftware.com/blog/steamhide-malware-in-profile-images): malicious encrypted code is placed within the PropertyTagICCProfile value
 * [OilRig covertly communicates via emails and image steganography](https://unit42.paloaltonetworks.com/oilrig-novel-c2-channel-steganography/): secret data is embedded in BMP images and sent as the attachment of fake mails
 * [Enterprises in Japan and Europe attacked also by using Mimikatz](https://ics-cert.kaspersky.com/reports/2020/05/28/steganography-in-targeted-attacks-on-industrial-enterprises/): malicious XLS containing Trojan.MSExcel.Agent.be are used to retrieve an image hiding the Trojan-PSW.PowerShell.Mimikatz
 * [IcedID and BokBot](https://www.group-ib.com/blog/icedid): an image is used to retrieve the shellcode and the IcedID core (see, [here](https://sysopfb.github.io/malware,/icedid/2020/04/28/IcedIDs-updated-photoloader.html) for more details on the IcedID PhotoLoader)  
@@ -67,7 +67,7 @@ A list of attacks and malware using steganography or information hiding.
 
 * K. Cabaj, L. Caviglione, W. Mazurczyk, S. Wendzel, A. Woodward, S. Zander, [The New Threats of Information Hiding: The Road Ahead](https://ieeexplore.ieee.org/abstract/document/8378979), IT Professional, Vol. 20, No. 3, pp. 31-39, May/June 2018, doi: 10.1109/MITP.2018.032501746.
 
-* W. Mazurczyk, L. Caviglione, [Information Hiding as a Challenge for Malware Detection](https://ieeexplore.ieee.org/document/7085644), IEEE Security & Privacy, Vol. 13, No. 2, pp. 89-93, Mar.-Apr. 2015, doi: 10.1109/MSP.2015.33.
+* W. Mazurczyk, L. Caviglione, [Information Hiding as a Challenge for Malware Detection](https://ieeexplore.ieee.org/document/7085644), IEEE Security & Privacy, Vol. 13, No. 2, pp. 89-93, March-April 2015, doi: 10.1109/MSP.2015.33.
 
 ---
 
