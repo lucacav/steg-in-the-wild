@@ -5,6 +5,8 @@ A list of attacks and malware using steganography or information hiding.
 <!--- Newer First --->
 ## Image Attacks
 
+* [The Witchetty Group hides data in an old Win logo](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/witchetty-steganography-espionage): the group developed a backdoor trojan called Backdoor.Stegmap, which downloads an image from a GitHub repository. The BMP file is an old MS Windows logo, but cloaks a payload encrypted with a XOR key.
+
 * [Malware hidden in images from the James Webb telescope](https://www.bleepingcomputer.com/news/security/hackers-hide-malware-in-james-webb-telescope-images/#.Yw9H15aM6iQ.twitter): a malicious executable is hidden in a picture of the the galaxy cluster SMACS 0723. To prevent detection, the cloaked Golang executable is XORed and strings are encoded in ROT25
 * [Docker servers targeted with Lemon_Duck](https://www.bleepingcomputer.com/news/security/docker-servers-hacked-in-ongoing-cryptomining-malware-campaign/): attackers gain access to exposed Docker APIs and by exploiting Lemon_Duck runs a malicious container to fetch a script hidden in a PNG image
 * [Massive use of steganography to implement an attack chain against French entities](https://www.proofpoint.com/us/blog/threat-insight/serpent-no-swiping-new-backdoor-targets-french-entities-unique-attack-chain): image steganography is used for hiding various payloads (including a base64-encoded PowerShell script) to install the Serpent backdoor 
