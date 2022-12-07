@@ -5,8 +5,10 @@ A list of attacks and malware using steganography or information hiding.
 <!--- Newer First --->
 ## Image Attacks
 
+* [Worok Group hides malware in PNG](https://www.bleepingcomputer.com/news/security/worok-hackers-hide-new-malware-in-pngs-using-steganography/): LSB steganography is used to cloak data in PNG images. Worok hides two payloads: a PowerShell script and a custom .NET C# stealer able to abuse Dropbox for cloaking exfiltration and C&C communications.
+* [Malicious PyPI Package](https://research.checkpoint.com/2022/check-point-cloudguard-spectral-exposes-new-obfuscation-techniques-for-malicious-packages-on-pypi/): a malicious package published on [PyPI](https://pypi.org) can hide code in images and infect users through projects hosted on Github.
 * [The Witchetty Group hides data in an old Win logo](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/witchetty-steganography-espionage): the group developed a backdoor trojan called Backdoor.Stegmap, which downloads an image from a GitHub repository. The BMP file is an old MS Windows logo, but cloaks a payload encrypted with a XOR key.
-* [Malware hidden in images from the James Webb telescope](https://www.bleepingcomputer.com/news/security/hackers-hide-malware-in-james-webb-telescope-images/#.Yw9H15aM6iQ.twitter): a malicious executable is hidden in a picture of the the galaxy cluster SMACS 0723. To prevent detection, the cloaked Golang executable is XORed and strings are encoded in ROT25
+* [Malware hidden in images from the James Webb telescope](https://www.bleepingcomputer.com/news/security/hackers-hide-malware-in-james-webb-telescope-images/#.Yw9H15aM6iQ.twitter): a malicious executable is hidden in the certificate belonging to a picture of the the galaxy cluster SMACS 0723. To prevent detection, the cloaked Golang executable is XORed and strings are encoded in ROT25
 * [Docker servers targeted with Lemon_Duck](https://www.bleepingcomputer.com/news/security/docker-servers-hacked-in-ongoing-cryptomining-malware-campaign/): attackers gain access to exposed Docker APIs and by exploiting Lemon_Duck runs a malicious container to fetch a script hidden in a PNG image
 * [Massive use of steganography to implement an attack chain against French entities](https://www.proofpoint.com/us/blog/threat-insight/serpent-no-swiping-new-backdoor-targets-french-entities-unique-attack-chain): image steganography is used for hiding various payloads (including a base64-encoded PowerShell script) to install the Serpent backdoor 
 * [SteamHide exploits Steam profile images to download malware](https://www.gdatasoftware.com/blog/steamhide-malware-in-profile-images): malicious encrypted code is placed within the PropertyTagICCProfile value
@@ -66,6 +68,8 @@ A list of attacks and malware using steganography or information hiding.
 
 ---
 ## Related Papers
+
+* L. Caviglione, W. Mazurczyk, [Never Mind the Malware, Here’s the Stegomalware](https://ieeexplore.ieee.org/document/9889000), IEEE Security & Privacy, Vol. 20, No. 5, pp. 101-106, September-October 2022, doi: 10.1109/MSEC.2022.3178205.
 
 * K. Cabaj, L. Caviglione, W. Mazurczyk, S. Wendzel, A. Woodward, S. Zander, [The New Threats of Information Hiding: The Road Ahead](https://ieeexplore.ieee.org/abstract/document/8378979), IT Professional, Vol. 20, No. 3, pp. 31-39, May/June 2018, doi: 10.1109/MITP.2018.032501746.
 
