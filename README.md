@@ -5,6 +5,8 @@ A list of attacks and malware using steganography or information hiding.
 <!--- Newer First --->
 ## Image Attacks
 
+* [Lumma](https://twitter.com/1ZRR4H/status/1706747262993350752/photo/2): similarly to Lurk and Stegoloader, the new Lumma stealer now uses steganography to hide payloads in images to be retrieved from a web repository
+
 * [Formbook exploits steganography](https://malwr0nwind0z.com/post_5-15-23_formbook_sample/): a malicious .NET executable (called MajorRevision.exe) is hidden in a compressed bitmap image
 * [Worok Group hides malware in PNG](https://www.bleepingcomputer.com/news/security/worok-hackers-hide-new-malware-in-pngs-using-steganography/): LSB steganography is used to cloak data in PNG images. Worok hides two payloads: a PowerShell script and a custom .NET C# stealer able to abuse Dropbox for cloaking exfiltration and C&C communications
 * [Malicious PyPI Package](https://research.checkpoint.com/2022/check-point-cloudguard-spectral-exposes-new-obfuscation-techniques-for-malicious-packages-on-pypi/): a malicious package published on [PyPI](https://pypi.org) can hide code in images and infect users through projects hosted on Github
