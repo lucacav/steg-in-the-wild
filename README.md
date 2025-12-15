@@ -72,7 +72,7 @@ A list of attacks and malware using steganography or information hiding.
 ---
 ## Related Papers
 
-* F. Strachanski, D. Petrov, T. Schmidbauer, S. Wendzel, [A Comprehensive Pattern-based Overview of Stegomalware](https://dl.acm.org/doi/abs/10.1145/3664476.3670886), Proc. of the 19th International Conference on Availability, Reliability and Security, Vienna, Austria, 30 July - 2 August 2024, pp. 77:1 - 77:10. 
+* F. Strachanski, D. Petrov, T. Schmidbauer, S. Wendzel, [A Comprehensive Pattern-based Overview of Stegomalware](https://dl.acm.org/doi/abs/10.1145/3664476.3670886), Proc. of the 19th International Conference on Availability, Reliability and Security, Vienna, Austria, July/August 2024, pp. 77:1 - 77:10, doi: 10.1145/3664476.3670886.  
 * L. Caviglione, W. Mazurczyk, [Never Mind the Malware, Here’s the Stegomalware](https://ieeexplore.ieee.org/document/9889000), IEEE Security & Privacy, Vol. 20, No. 5, pp. 101-106, September-October 2022, doi: 10.1109/MSEC.2022.3178205.
 * K. Cabaj, L. Caviglione, W. Mazurczyk, S. Wendzel, A. Woodward, S. Zander, [The New Threats of Information Hiding: The Road Ahead](https://ieeexplore.ieee.org/abstract/document/8378979), IT Professional, Vol. 20, No. 3, pp. 31-39, May/June 2018, doi: 10.1109/MITP.2018.032501746.
 * W. Mazurczyk, L. Caviglione, [Information Hiding as a Challenge for Malware Detection](https://ieeexplore.ieee.org/document/7085644), IEEE Security & Privacy, Vol. 13, No. 2, pp. 89-93, March-April 2015, doi: 10.1109/MSP.2015.33.
