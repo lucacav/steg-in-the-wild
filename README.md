@@ -63,6 +63,7 @@ A list of attacks and malware using steganography or information hiding.
 
 ## Text Attacks
 
+* [Agent Tesla RAT hidden in a Torrent movie](https://www.bleepingcomputer.com/news/security/fake-one-battle-after-another-torrent-hides-malware-in-subtitles/): the torrent contained a subtitles file and a shortcut file, which when executed extracts and runs a malicious PowerShell script embedded in subtitles data
 * [Maldoc targeting Azerbaijan](https://blog.malwarebytes.com/threat-analysis/2021/03/new-steganography-attack-targets-azerbaijan/): a .doc document written in Azerbaijani contains an obfuscated macro and extract a copy of FairFax (i.e., a .NET RAT)
 * [PHP Malware](https://blog.sucuri.net/2021/02/whitespace-steganography-conceals-web-shell-in-php-malware.html): a payload (Web Shell) has been found encoded in whitespaces of a license.php file via a publicly available proof-of-concept text steganography [method](https://m.habr.com/en/post/458710/) 
 * [Astaroth](https://blog.talosintelligence.com/2020/05/astaroth-analysis.html): the description of YouTube channels hides the URL of command and control servers. 
@@ -78,4 +79,4 @@ A list of attacks and malware using steganography or information hiding.
 ---
 
 ## Acknowledgements 
-This work was supported by the Horizon 2020 Program through [SIMARGL](https://simargl.eu/) H2020-SU-ICT-01-2018, Grant Agreement No. 833042.
+This work was originally supported by the Horizon 2020 Program through [SIMARGL](https://cordis.europa.eu/project/id/833042/reporting) H2020-SU-ICT-01-2018, Grant Agreement No. 833042. Now, the work is supported by the Horizione Europe Program through [PERUN](https://perun.technology) HORIZON-CL3-2024-CS-01-01, Grant Agreement No. 101225653.
